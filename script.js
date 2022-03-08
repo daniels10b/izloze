@@ -9,12 +9,14 @@ for (let i = 0; i < uzvaretajuSkaits; i++) {
     let rand = Math.random() * vardi.length;//vārdu skaits mainīgs
     rand = Math.floor(rand);//noapaļo uz leju
     let uzvaretajs=vardi[rand];//console.log vietā
-}
-rindas.innerHTML+=`
+    rindas.innerHTML+=`
 <tr>
-<td>${i+1}</td>
+<td>${i+1}</td> 
 <td>${uzvaretajs}</td>
-</tr>` //izvade vairākās rindas
+</tr>` //izvade vairākās rindas //$ norāda mainīgo
+
+}
+
 
 
 
