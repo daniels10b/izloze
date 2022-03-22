@@ -1,0 +1,39 @@
+td {
+   
+    border: 2px solid black;
+    padding: 80px;
+    padding-top: 12px;
+    padding-bottom: 16px;
+    text-align: left;
+    background-color: gray;
+    color: white;
+  }
+  table{
+        border-collapse: collapse;
+    color:black;
+  }
+  body{
+  background-image: url('https://cdn.glitch.global/6122476e-4f15-4dff-845a-94d21e931bf6/ceks2.jpg?v=1647936352044');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width:50%;
+  font-size:20px;
+  
+}
+h1{
+text-align:center;
+font-size:40px;
+font-family:Verdana,sans-serif;
+}
+.row {
+    display: flex;
+  }
+img{
+    height:350px;
+   
+    min-width: 370px;
+}
+
+  
+
